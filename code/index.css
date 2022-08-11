@@ -1,0 +1,59 @@
+
+.n1{
+position: absolute;
+left: 50%;
+right: 45.27%;
+top: 45.37%;
+bottom: 37.96%;
+font-family: 'Poppins';
+font-style: 'normal';
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 00.245em;
+color: #ffffff;
+
+
+
+
+
+
+}
+
+
+
+.var{
+    height: 80px;
+}
+
+
+
+.name{
+
+    position: absolute;
+    left: 5.2%;
+    right: ;
+    top: ;
+    bottom: 26.39%; 
+    font-family: 'Pattay';
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 67px;
+    letter-spacing: 0.245em;
+    color: #000000;
+
+}
+
+.container-fluid
+    {
+        background-color: rgba(183, 76, 76, 0.42);
+        position: absolute;
+    }
+    .hh{
+       color: aliceblue;
+
+   font-style:Poppins;
+
+   
+    }
+
