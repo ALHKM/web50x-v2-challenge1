@@ -1,59 +1,423 @@
+* {
 
-.n1{
-position: absolute;
-left: 50%;
-right: 45.27%;
-top: 45.37%;
-bottom: 37.96%;
-font-family: 'Poppins';
-font-style: 'normal';
-font-weight: 700;
-font-size: 24px;
-line-height: 36px;
-letter-spacing: 00.245em;
-color: #ffffff;
-
-
-
-
-
-
-}
-
-
-
-.var{
-    height: 80px;
-}
-
-
-
-.name{
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial',sans-serif;
+ }
+ #sub0
+ {
+   position: absolute;
+   margin-left: 1900px;
+ }
+ #ghm2
+ {
+   position: absolute;
+    color: #111;
+    text-decoration-line: none;
+    margin-left: 1300px;
+    margin-bottom: 90px;
+    font-size: 14px;
+ }
+ #ghm
+ {
+    color: #111;
+  text-decoration-line: none;
+ }
+ #gs
+ {
+  color: #111;
+  text-decoration-line: none;
+  background-color: silver;
+ }
+ #feeling
+ {
+    text-decoration-line: none;
+    color: black;
+ }
+ section 
+ {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+ section header 
+ {
+ 
     position: absolute;
-    left: 5.2%;
-    right: ;
-    top: ;
-    bottom: 26.39%; 
-    font-family: 'Pattay';
-    font-style: normal;
-    font-weight: 400px;
-    line-height: 67px;
-    letter-spacing: 0.245em;
-    color: #000000;
-
-}
-
-.container-fluid
-    {
-        background-color: rgba(183, 76, 76, 0.42);
-        position: absolute;
-    }
-    .hh{
-       color: aliceblue;
-
-   font-style:Poppins;
-
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+ }
+ section header ul 
+ {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ section header ul li
+ {
+    list-style: none;
+    margin-left: 20px;
+ }
+ section header ul li a 
+ {
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+ }
+ section header ul li button 
+ {
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+ }
+ section .main
+ {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ section .main .searchBox
+ {
+    position: relative;
+    width: 550px;
+    margin-top: 20px;
+ }
+ section .main .searchBox .search
+ {
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+ }
+ section .main .searchBox .icons
+ {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+ 
+ 
+ }
+ 
+ section .main .buttons
+ {
+    margin-top: 20px;
+ }
+ section .main .buttons button
+ {
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: rgb(162, 161, 161);
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+ }
+ section .main .buttons button :hover
+ {
+    border: 1px solid #ccc;
+ }
+ section .main .languages
+ {
+    display: flex;
+    margin-top: 30px;
+ 
+ }
+ section .main .languages li
+ {
+    list-style: none;
+    margin: 0 5px;
+    font-size: 15px;
+ }
+ section .main .languages li a
+ {
+    text-decoration: none;
+    color: #1a0dab;
+ }
+ section .main .languages li a:hover
+ {
+    text-decoration: underline;
+ }
+ .footer
+ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+ }
+ #row
+ {
+    padding: 15px 25px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+ } 
+ .row2
+ {
+    display: flex;
+    justify-content: space-between;
+ }
+ #ul
+ {
+    display: flex;
+    justify-content: space-between;
+ }
+ #li
+ {
+    list-style: none;
+ }
+ #a
+ {
+    text-decoration:none;
+    font-size: 14px;
+    color:#5f6368;
+    margin-right: 25px;
+ }
+ .googleadv
+ {
+    margin-top: 18px;
+    margin-left: 20px;
+ }
+ 
+ .advancsd
+ {
+   color: rgb(242, 76, 76);
+    font-size: 19px;
+    margin-top: 33px;
+    margin-left: 38px;
+    padding-bottom: 30px;
+    border-bottom:  0.5px solid gray;
    
-    }
-
+ }
+ .line-5
+ {
+    margin-top:44px ;
+    height: 0.5px;
+    background: rgb(196, 187, 187);
+ }
+ 
+ 
+ 
+ #f 
+ {
+    position: absolute;
+    
+    margin-top:50px ;
+    display: inline;
+    padding-left: 50px;
+    font-size: 15px;
+   
+ 
+ }
+ #t
+ {
+    position: absolute;
+    display: inline;
+    margin-top: 50px;
+    margin-left: 800px;
+    color: gray;
+    font-size: 14px;
+    
+ 
+ }
+ #all
+ {
+    margin-top: 80px;
+    margin-left: 50px;
+    
+    
+    font-size: 14px;
+    position: absolute;
+ 
+ }
+ #input1
+ {
+    padding:13px;
+    outline: none;
+    border: 0.5px solid gray;
+    margin-top: 80px;
+    margin-left: 220px;
+    height: 25px;
+    width :575px;
+    position: absolute;
+ }
+ #import
+ {
+    margin-top: 80px;
+    margin-left: 820px;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+ }
+ #type
+ {
+   
+    margin-top: 80px;
+    margin-left: 820px;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+ }
+ #this
+ {
+    margin-top: 120px;
+    margin-left: 50px;
+    
+    
+    font-size: 14px;
+    position: absolute;
+ 
+ }
+ #input2
+ {
+    padding:13px;
+    outline: none;
+    border: 0.5px solid gray;
+    margin-top: 120px;
+    margin-left: 220px;
+    height: 25px;
+    width :575px;
+    position: absolute;
+ 
+ }
+ #put
+ {
+    margin-top: 120px;
+    margin-left: 820px;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+ }
+ #any
+ {
+    margin-top: 160px;
+    margin-left: 50px;
+    font-size: 14px;
+    position: absolute;
+ 
+ }
+ #input3
+ {
+    padding:13px;
+    outline: none;
+    border: 0.5px solid gray;
+    margin-top: 160px;
+    margin-left: 220px;
+    height: 25px;
+    width :575px;
+    position: absolute;
+ 
+ 
+ }
+ #type2
+ { 
+    
+    margin-top: 160px;
+    margin-left: 820px;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+   
+ }
+ 
+ #none
+ {
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 14px;
+    position: absolute;
+ 
+ }
+ #input4
+ {
+    padding:13px;
+    outline: none;
+    border: 0.5px solid gray;
+    margin-top: 200px;
+    margin-left: 220px;
+    height: 25px;
+    width :575px;
+    position: absolute;
+ 
+ 
+ }
+ #minus
+ {
+    margin-top: 200px;
+    margin-left: 820px;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+ 
+ }
+ #number
+ {
+    margin-top: 240px;
+    margin-left: 50px;
+    font-size: 14px;
+    position: absolute;
+ }
+ #input5
+ {
+    padding:13px;
+    outline: none;
+    border: 0.5px solid gray;
+    margin-top: 240px;
+    margin-left: 220px;
+    height: 25px;
+    width :250px;
+    position: absolute;
+ 
+ }
+ #to
+ {
+    
+    margin-top: 245px;
+    margin-left: 480px;
+    font-size: 14px;
+    position: absolute;
+ 
+ }
+ #input6
+ {
+    padding:13px;
+    outline: none;
+    border: 0.5px solid gray;
+    margin-top: 240px;
+    margin-left: 500px;
+    height: 25px;
+    width :293px;
+    position: absolute;
+ }
+ #two
+ {
+    margin-top: 240px;
+    margin-left: 820px;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+ 
+ }
